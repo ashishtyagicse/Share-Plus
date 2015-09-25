@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shareplus.controllers.Browse">
+   
+ 
+    <item
+        android:id="@+id/email"
+        android:title="email"
+      	android:showAsAction="never"
+    />
+    <item
+        android:id="@+id/contacts"
+        android:title="contact"
+      	android:showAsAction="never"
+    />
+</menu>
+
+

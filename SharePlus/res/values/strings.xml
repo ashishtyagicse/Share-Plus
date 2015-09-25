@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Share+</string>
+    <string name="action_settings">Settings</string>
+    <string name="browse_activity">Select Files</string>    
+    <string name="play_method">Play</string>
+    <string name="Share_method">Share</string>
+    <string name="play_share_method">Play &amp; Share</string>
+    <string name="single_mode">Single Mode</string>
+    <string name="multicast_mode">Multicast Mode</string>
+    <string name="broadcast_mode">Broadcast</string>
+    <string name="title_activity_play_file">PlayFIle</string>    
+    <string name="methodtitle">Select sharing option</string>
+    <string name="modetitle">Share With</string>
+    <string name="usergroupselect_activity">Select Users</string>
+    <string name="create_profile">Create User Profile</string>
+    <string name="user_profile">User Profile</string>
+    <string name="first_Name">First Name : </string>
+    <string name="last_name">Last Name :</string>
+    <string name="contact_Number">Contact Number :</string>
+    <string name="user_name">User Name : </string>
+    <string name="create_user">Create Profile</string>
+    <string name="add_profile_pic">Profile Picture</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="shareplus_about1">Share+ is an Android based application developed as a project for Masters in Computer Science</string>
+    <string name="shareplus_about2">Its a ultimate sharing application designed to work with different devices. With a single aim to sharing easy and effectively just the way you want it to be</string>
+    <string name="shareplus_about3">An initiative by Team</string>
+    <string name="shareplus_about4">Ashish Tyagi</string>
+    <string name="shareplus_about5">Nivedita Shreekant Sonker</string>
+    <string name="shareplus_about6">Prachi Sudhir Marathe</string>
+    <string name="about">About</string>
+    <string name="connecting_activity">Connecting </string>
+    <string name="playactivity">Remote Connected</string>
+    
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/user_profile">
+
+    <TextView
+        android:id="@+id/createProfileTVId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/create_profile"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/createProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:layout_toRightOf="@+id/lNameTVId"
+        android:text="@string/create_user"
+        android:onClick="createProfile" />
+
+    <EditText
+        android:id="@+id/lastNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contactPhTxt"
+        android:layout_alignLeft="@+id/fetchProfilePicId"
+        android:layout_alignRight="@+id/createProfileTVId"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lNameTVId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lastNameTxt"
+        android:layout_toLeftOf="@+id/lastNameTxt"
+        android:text="@string/last_name" />
+
+    <TextView
+        android:id="@+id/userNameTVId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/createProfile"
+        android:layout_alignLeft="@+id/contactNumTVId"
+        android:layout_marginBottom="33dp"
+        android:text="@string/user_name" />
+
+    <EditText
+        android:id="@+id/firstNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lastNameTxt"
+        android:layout_alignRight="@+id/createProfileTVId"
+        android:layout_toRightOf="@+id/fNameTVId"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/contactPhTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/userNameTxt"
+        android:layout_alignRight="@+id/lastNameTxt"
+        android:layout_marginBottom="34dp"
+        android:layout_toRightOf="@+id/contactNumTVId"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/contactNumTVId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contactPhTxt"
+        android:layout_alignLeft="@+id/lNameTVId"
+        android:text="@string/contact_Number" />
+
+    <ImageButton
+        android:id="@+id/fetchProfilePicId"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_above="@+id/firstNameTxt"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/add_profile_pic"
+        android:onClick="fetchImageFromLib"
+        android:scaleType="fitCenter"
+        android:src="@drawable/user_profile" />
+
+    <TextView
+        android:id="@+id/fNameTVId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstNameTxt"
+        android:layout_alignBottom="@+id/firstNameTxt"
+        android:layout_alignRight="@+id/userNameTVId"
+        android:text="@string/first_Name" />
+
+    <EditText
+        android:id="@+id/userNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstNameTxt"
+        android:layout_alignRight="@+id/contactPhTxt"
+        android:layout_alignTop="@+id/userNameTVId"
+        android:ems="10"
+        android:inputType="text" />
+
+</RelativeLayout>

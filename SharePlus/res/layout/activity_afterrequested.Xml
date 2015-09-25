@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shareplus.controllers.Browse" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent" >
+
+        <TextView
+            android:id="@+id/userconnectprogress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:ellipsize="start"
+            android:paddingLeft="3dp"
+            android:singleLine="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:id="@+id/connectprogressBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp" 
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/connectinguserlist"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/background_light"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="true"
+        android:listSelector="@android:drawable/screen_background_light_transparent" >
+    </ListView>
+</LinearLayout>
